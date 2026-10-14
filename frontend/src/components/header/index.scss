@@ -1,0 +1,38 @@
+.comp-header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+    padding: 1.5rem 3rem;
+
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+
+    .slogan {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        .logo {
+            width: 7rem;
+        }
+    }
+
+
+    .navegacao ul {
+        display: flex;
+        gap: 1rem;
+
+        list-style: none;
+
+        & li {
+            font-size: 1.6rem;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
